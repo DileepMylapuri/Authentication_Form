@@ -10,7 +10,7 @@ const BrandPanel = () => (
         </div>
         <div className='relative max-w-md'>
             <h1 className='text-4xl font-semibold leading-tight tracking-tight'>
-                Run your business from one clear dashboard.
+                Leo Doss and Co Business approved all over India.
             </h1>
             <p className='mt-4 text-slate-300 leading-relaxed'>
                 Track revenue, orders and customers in real time, with everything your team needs in one place.
