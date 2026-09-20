@@ -7,7 +7,7 @@ const Sidebar = ({ active, onSelect, open, onClose }) => (
         {open && <div className='fixed inset-0 z-30 bg-slate-900/50 lg:hidden' onClick={onClose} />}
         <aside className={`fixed inset-y-0 left-0 z-40 w-64 bg-slate-900 text-slate-300 flex flex-col transition-transform lg:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'}`}>
             <div className='flex items-center gap-3 px-6 h-16 border-b border-white/10'>
-                <div className='h-8 w-8 rounded-lg bg-indigo-500 grid place-items-center font-bold text-white'>D</div>
+                <div className='h-8 w-8 rounded-lg bg-indigo-500 grid place-items-center text-xs font-bold text-white'>LEO</div>
                 <span className='font-semibold text-white tracking-tight'>Doss &amp; Co</span>
             </div>
             <nav className='flex-1 p-4 space-y-1'>
