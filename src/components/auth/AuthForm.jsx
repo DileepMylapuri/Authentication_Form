@@ -39,7 +39,7 @@ const AuthForm = ({ onAuthenticated }) => {
     return (
         <div className='w-full max-w-md'>
             <div className='lg:hidden flex items-center gap-3 mb-8'>
-                <div className='h-10 w-10 rounded-xl bg-indigo-600 text-white grid place-items-center font-bold'>D</div>
+                <div className='h-10 w-10 rounded-xl bg-indigo-600 text-white grid place-items-center text-sm font-bold'>LEO</div>
                 <span className='text-lg font-semibold text-slate-900'>Doss &amp; Co</span>
             </div>
 

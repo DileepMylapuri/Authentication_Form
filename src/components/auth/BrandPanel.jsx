@@ -5,7 +5,7 @@ const BrandPanel = () => (
         <div className='absolute -top-24 -right-24 h-96 w-96 rounded-full bg-indigo-600/30 blur-3xl' />
         <div className='absolute -bottom-32 -left-16 h-96 w-96 rounded-full bg-cyan-500/20 blur-3xl' />
         <div className='relative flex items-center gap-3'>
-            <div className='h-10 w-10 rounded-xl bg-indigo-500 grid place-items-center font-bold'>D</div>
+            <div className='h-10 w-10 rounded-xl bg-indigo-500 grid place-items-center text-sm font-bold'>LEO</div>
             <span className='text-lg font-semibold tracking-tight'>Doss &amp; Co</span>
         </div>
         <div className='relative max-w-md'>
