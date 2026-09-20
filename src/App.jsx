@@ -1,15 +1,13 @@
-import React from 'react'
-import Login from './components/Login'
+import React, { useState } from 'react'
+import LoginPage from './pages/LoginPage'
+import DashboardPage from './pages/DashboardPage'
 
 const App = () => {
-  return (
-    <div className='bg-cyan-950 h-[100vh]'>
-    <div className='bg-cyan-950 h-auto'>
-      <h1 className='flex flex-row justify-center p-4 font-bold text-2xl bg-amber-800 text-white'>Form Validation</h1>
-      <Login />
-    </div>
-    </div>
-  )
+  const [user, setUser] = useState(null)
+
+  return user
+    ? <DashboardPage user={user} onLogout={() => setUser(null)} />
+    : <LoginPage onAuthenticated={setUser} />
 }
 
 export default App
