@@ -15,6 +15,9 @@ const BrandPanel = () => (
             <p className='mt-4 text-slate-300 leading-relaxed'>
                 Track revenue, orders and customers in real time, with everything your team needs in one place.
             </p>
+            <p className='mt-4 text-slate-300 leading-relaxed'>
+                All data Available in this Application.
+            </p>
         </div>
         <p className='relative text-sm text-slate-400'>© {new Date().getFullYear()} Doss &amp; Co. All rights reserved.</p>
     </aside>
